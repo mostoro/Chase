@@ -1,0 +1,341 @@
+{
+  "Name": "x",
+  "CreationDate": "2024-1-4",
+  "Commands": [
+    {
+      "Command": "comment",
+      "Target": "prompt // Enter From Date:",
+      "Value": "FromDate",
+      "Description": "From date required"
+    },
+    {
+      "Command": "comment",
+      "Target": "prompt // Enter To Date:",
+      "Value": "ToDate",
+      "Description": "To date required"
+    },
+    {
+      "Command": "bringBrowserToForeground",
+      "Target": "",
+      "Value": "",
+      "Description": "This is to update the focus on Chase web page (it is useful for tab)"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_F5}",
+      "Value": "",
+      "Description": "Refreshing the web page"
+    },
+    {
+      "Command": "pause",
+      "Target": "3500",
+      "Value": "",
+      "Description": "Pausing to refresh again and avoid issues"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_F5}",
+      "Value": "",
+      "Description": "Refreshing the web page 2"
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"allAccountsOverview\"]/div/div/div[2]",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"allAccountsOverview\"]/div/div/div[2]",
+        "xpath=//div[6]/div/div/div/div[2]",
+        "css=#allAccountsOverview > div.filter-container-block > div > div.filter-container.mds-row.mds-d-flex.mds-jc-space-between.mds-fw-wrap"
+      ],
+      "Description": "Clicking to focus the page"
+    },
+    {
+      "Command": "bringBrowserToForeground",
+      "Target": "",
+      "Value": "",
+      "Description": "This is to update the focus on Chase web page (it is useful for tab)"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB}${KEY_TAB}${KEY_TAB}${KEY_TAB}${KEY_TAB}${KEY_TAB}${KEY_TAB}",
+      "Value": "",
+      "Description": "Selecting bank account"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_ENTER}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=headerSearchLink",
+      "Value": "",
+      "Targets": [
+        "id=headerSearchLink",
+        "xpath=//*[@id=\"headerSearchLink\"]",
+        "xpath=//mds-link[@id='headerSearchLink']",
+        "xpath=//div[3]/mds-link",
+        "css=#headerSearchLink"
+      ],
+      "Description": "Searching"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_TAB} ${KEY_TAB} ${KEY_TAB}",
+      "Value": "",
+      "Description": "Selecting from date"
+    },
+    {
+      "Command": "XType",
+      "Target": "12/01/2023",
+      "Value": "",
+      "Description": "Typing from date"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_TAB} ${KEY_TAB} ",
+      "Value": "",
+      "Description": "Selecting to date"
+    },
+    {
+      "Command": "XType",
+      "Target": "12/27/2023",
+      "Value": "",
+      "Description": "Typing to date"
+    },
+    {
+      "Command": "click",
+      "Target": "id=activitySearchFilter",
+      "Value": "",
+      "Targets": [
+        "id=activitySearchFilter",
+        "xpath=//*[@id=\"activitySearchFilter\"]",
+        "xpath=//mds-button[@id='activitySearchFilter']",
+        "xpath=//div[2]/div[2]/mds-button",
+        "css=#activitySearchFilter"
+      ],
+      "Description": "Clicking search after indicating dates"
+    },
+    {
+      "Command": "pause",
+      "Target": "2000",
+      "Value": "",
+      "Description": "Pausing to avoid issues"
+    },
+    {
+      "Command": "click",
+      "Target": "id=downloadActivityIcon",
+      "Value": "",
+      "Targets": [
+        "id=downloadActivityIcon",
+        "xpath=//*[@id=\"downloadActivityIcon\"]",
+        "xpath=//mds-button[@id='downloadActivityIcon']",
+        "xpath=//span[2]/mds-button",
+        "css=#downloadActivityIcon"
+      ],
+      "Description": "Downloading report"
+    },
+    {
+      "Command": "click",
+      "Target": "id=download",
+      "Value": "",
+      "Targets": [
+        "id=download",
+        "xpath=//*[@id=\"download\"]",
+        "xpath=//mds-button[@id='download']",
+        "xpath=//div[2]/mds-button",
+        "css=#download"
+      ],
+      "Description": "Downloading report"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_SHIFT+KEY_TAB}${KEY_SHIFT+KEY_TAB}${KEY_SHIFT+KEY_TAB}${KEY_SHIFT+KEY_TAB}${KEY_SHIFT+KEY_TAB}${KEY_SHIFT+KEY_TAB}",
+      "Value": "",
+      "Description": "Returning to main page"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_ENTER}",
+      "Value": "",
+      "Description": "Returning to main page"
+    },
+    {
+      "Command": "pause",
+      "Target": "3000",
+      "Value": "",
+      "Description": "Pausing 3 secs to refresh after it"
+    },
+    {
+      "Command": "comment",
+      "Target": "separating codes",
+      "Value": "",
+      "Description": "Updating main page"
+    },
+    {
+      "Command": "comment",
+      "Target": "separating codes",
+      "Value": "",
+      "Description": "Updating main page"
+    },
+    {
+      "Command": "comment",
+      "Target": "separating codes",
+      "Value": "",
+      "Description": "Updating main page"
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"allAccountsOverview\"]/div/div/div[2]",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"allAccountsOverview\"]/div/div/div[2]",
+        "xpath=//div[6]/div/div/div/div[2]",
+        "css=#allAccountsOverview > div.filter-container-block > div > div.filter-container.mds-row.mds-d-flex.mds-jc-space-between.mds-fw-wrap"
+      ],
+      "Description": "Clicking to focus the page"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_F5}",
+      "Value": "",
+      "Description": "Refreshing the web page"
+    },
+    {
+      "Command": "pause",
+      "Target": "3500",
+      "Value": "",
+      "Description": "Pausing to refresh again and avoid issues"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_F5}",
+      "Value": "",
+      "Description": "Refreshing the web page 2"
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"allAccountsOverview\"]/div/div/div[2]",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"allAccountsOverview\"]/div/div/div[2]",
+        "xpath=//div[6]/div/div/div/div[2]",
+        "css=#allAccountsOverview > div.filter-container-block > div > div.filter-container.mds-row.mds-d-flex.mds-jc-space-between.mds-fw-wrap"
+      ],
+      "Description": "Clicking to focus the page"
+    },
+    {
+      "Command": "bringBrowserToForeground",
+      "Target": "",
+      "Value": "",
+      "Description": "This is to update the focus on Chase web page (it is useful for tab)"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB}${KEY_TAB}${KEY_TAB}${KEY_TAB}${KEY_TAB}${KEY_TAB}${KEY_TAB}${KEY_TAB}${KEY_TAB}",
+      "Value": "",
+      "Description": "Selecting bank account"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_ENTER}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=headerSearchLink",
+      "Value": "",
+      "Targets": [
+        "id=headerSearchLink",
+        "xpath=//*[@id=\"headerSearchLink\"]",
+        "xpath=//mds-link[@id='headerSearchLink']",
+        "xpath=//div[3]/mds-link",
+        "css=#headerSearchLink"
+      ],
+      "Description": "Searching"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_TAB} ${KEY_TAB} ${KEY_TAB}",
+      "Value": "",
+      "Description": "Selecting from date"
+    },
+    {
+      "Command": "XType",
+      "Target": "12/01/2023",
+      "Value": "",
+      "Description": "Typing from date"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_TAB} ${KEY_TAB} ",
+      "Value": "",
+      "Description": "Selecting to date"
+    },
+    {
+      "Command": "XType",
+      "Target": "12/27/2023",
+      "Value": "",
+      "Description": "Typing to date"
+    },
+    {
+      "Command": "click",
+      "Target": "id=activitySearchFilter",
+      "Value": "",
+      "Targets": [
+        "id=activitySearchFilter",
+        "xpath=//*[@id=\"activitySearchFilter\"]",
+        "xpath=//mds-button[@id='activitySearchFilter']",
+        "xpath=//div[2]/div[2]/mds-button",
+        "css=#activitySearchFilter"
+      ],
+      "Description": "Clicking search after indicating dates"
+    },
+    {
+      "Command": "pause",
+      "Target": "2000",
+      "Value": "",
+      "Description": "Pausing to avoid issues"
+    },
+    {
+      "Command": "click",
+      "Target": "id=downloadActivityIcon",
+      "Value": "",
+      "Targets": [
+        "id=downloadActivityIcon",
+        "xpath=//*[@id=\"downloadActivityIcon\"]",
+        "xpath=//mds-button[@id='downloadActivityIcon']",
+        "xpath=//span[2]/mds-button",
+        "css=#downloadActivityIcon"
+      ],
+      "Description": "Downloading report"
+    },
+    {
+      "Command": "click",
+      "Target": "id=download",
+      "Value": "",
+      "Targets": [
+        "id=download",
+        "xpath=//*[@id=\"download\"]",
+        "xpath=//mds-button[@id='download']",
+        "xpath=//div[2]/mds-button",
+        "css=#download"
+      ],
+      "Description": "Downloading report"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_SHIFT+KEY_TAB}${KEY_SHIFT+KEY_TAB}${KEY_SHIFT+KEY_TAB}${KEY_SHIFT+KEY_TAB}${KEY_SHIFT+KEY_TAB}${KEY_SHIFT+KEY_TAB}",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_ENTER}",
+      "Value": "",
+      "Description": ""
+    }
+  ]
+}

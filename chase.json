@@ -1,6 +1,6 @@
 {
   "Name": "x",
-  "CreationDate": "2024-1-4",
+  "CreationDate": "2024-1-5",
   "Commands": [
     {
       "Command": "comment",
@@ -59,7 +59,7 @@
       "Command": "XType",
       "Target": "${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB}${KEY_TAB}${KEY_TAB}${KEY_TAB}${KEY_TAB}${KEY_TAB}${KEY_TAB}",
       "Value": "",
-      "Description": "Selecting bank account"
+      "Description": "Selecting bank account 1"
     },
     {
       "Command": "XType",
@@ -169,21 +169,21 @@
     },
     {
       "Command": "comment",
-      "Target": "separating codes",
+      "Target": "CODE FOR ANOTHER ACCOUNT",
       "Value": "",
-      "Description": "Updating main page"
+      "Description": ""
     },
     {
       "Command": "comment",
-      "Target": "separating codes",
+      "Target": "CODE FOR ANOTHER ACCOUNT",
       "Value": "",
-      "Description": "Updating main page"
+      "Description": ""
     },
     {
       "Command": "comment",
-      "Target": "separating codes",
+      "Target": "CODE FOR ANOTHER ACCOUNT",
       "Value": "",
-      "Description": "Updating main page"
+      "Description": ""
     },
     {
       "Command": "click",
@@ -235,7 +235,7 @@
       "Command": "XType",
       "Target": "${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB}${KEY_TAB}${KEY_TAB}${KEY_TAB}${KEY_TAB}${KEY_TAB}${KEY_TAB}${KEY_TAB}${KEY_TAB}",
       "Value": "",
-      "Description": "Selecting bank account"
+      "Description": "Selecting bank account 2"
     },
     {
       "Command": "XType",
@@ -336,6 +336,104 @@
       "Target": "${KEY_ENTER}",
       "Value": "",
       "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "IF STATEMENT",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "IF STATEMENT",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "IF STATEMENT",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "storeTitle",
+      "Target": "",
+      "Value": "initialTitle",
+      "Description": "Checking initialTitle"
+    },
+    {
+      "Command": "echo",
+      "Target": "The page title is ${initialTitle}\t",
+      "Value": "",
+      "Description": "Echo for initialTitle"
+    },
+    {
+      "Command": "click",
+      "Target": "id=downloadActivityIcon",
+      "Value": "",
+      "Targets": [
+        "id=downloadActivityIcon",
+        "xpath=//*[@id=\"downloadActivityIcon\"]",
+        "xpath=//mds-button[@id='downloadActivityIcon']",
+        "xpath=//span[2]/mds-button",
+        "css=#downloadActivityIcon"
+      ],
+      "Description": "Clicking download buttom"
+    },
+    {
+      "Command": "storeTitle",
+      "Target": "",
+      "Value": "afterClickTitle",
+      "Description": "Checking afterClickTitle"
+    },
+    {
+      "Command": "if",
+      "Target": "${initialTitle} != ${afterClickTitle}",
+      "Value": "",
+      "Description": "Evaluating if download page is open"
+    },
+    {
+      "Command": "echo",
+      "Target": "New page opened.",
+      "Value": "green",
+      "Description": "Echo if new page opened"
+    },
+    {
+      "Command": "echo",
+      "Target": "New page opened.",
+      "Value": "green",
+      "Description": "Echo if new page opened"
+    },
+    {
+      "Command": "else",
+      "Target": "",
+      "Value": "",
+      "Description": "Actions if download page doesn´t exist"
+    },
+    {
+      "Command": "echo",
+      "Target": "No new page opened.",
+      "Value": "red",
+      "Description": "Echo for no new page opened"
+    },
+    {
+      "Command": "click",
+      "Target": "id=requestAccounts",
+      "Value": "",
+      "Targets": [
+        "id=requestAccounts",
+        "xpath=//*[@id=\"requestAccounts\"]",
+        "xpath=//mds-navigation-bar-item[@id='requestAccounts']",
+        "xpath=//mds-navigation-bar-item",
+        "css=#requestAccounts"
+      ],
+      "Description": "Returning to main page when there aren´t movements"
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": "Closing if condition"
     }
   ]
 }

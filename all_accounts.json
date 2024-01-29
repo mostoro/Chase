@@ -1,0 +1,1050 @@
+{
+  "Name": "all_accounts",
+  "CreationDate": "2024-1-23",
+  "Commands": [
+    {
+      "Command": "prompt",
+      "Target": "Enter From Date:",
+      "Value": "FromDate",
+      "Description": "From date required"
+    },
+    {
+      "Command": "prompt",
+      "Target": "Enter To Date:",
+      "Value": "ToDate",
+      "Description": "To date required"
+    },
+    {
+      "Command": "run",
+      "Target": "Iteration/updating_main_page",
+      "Value": "",
+      "Description": "updating_main_page"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB}",
+      "Value": "",
+      "Description": "Selecting bank account 9425"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_ENTER}",
+      "Value": "",
+      "Description": "Selecting bank account 9425"
+    },
+    {
+      "Command": "run",
+      "Target": "Iteration/generating_report",
+      "Value": "",
+      "Description": "generating_report"
+    },
+    {
+      "Command": "run",
+      "Target": "Iteration/updating_main_page",
+      "Value": "",
+      "Description": "updating_main_page"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB}",
+      "Value": "",
+      "Description": "Selecting bank account 1960"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_ENTER}",
+      "Value": "",
+      "Description": "Selecting bank account 7960"
+    },
+    {
+      "Command": "run",
+      "Target": "Iteration/generating_report",
+      "Value": "",
+      "Description": "generating_report"
+    },
+    {
+      "Command": "run",
+      "Target": "Iteration/updating_main_page",
+      "Value": "",
+      "Description": "updating_main_page"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB}",
+      "Value": "",
+      "Description": "Selecting bank account 6707"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_ENTER}",
+      "Value": "",
+      "Description": "Selecting bank account 6707"
+    },
+    {
+      "Command": "run",
+      "Target": "Iteration/generating_report",
+      "Value": "",
+      "Description": "generating_report"
+    },
+    {
+      "Command": "run",
+      "Target": "Iteration/updating_main_page",
+      "Value": "",
+      "Description": "updating_main_page"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB}",
+      "Value": "",
+      "Description": "Selecting bank account 5608"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_ENTER}",
+      "Value": "",
+      "Description": "Selecting bank account 5608"
+    },
+    {
+      "Command": "run",
+      "Target": "Iteration/generating_report",
+      "Value": "",
+      "Description": "generating_report"
+    },
+    {
+      "Command": "run",
+      "Target": "Iteration/updating_main_page",
+      "Value": "",
+      "Description": "updating_main_page"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB}",
+      "Value": "",
+      "Description": "Selecting bank account 1590"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_ENTER}",
+      "Value": "",
+      "Description": "Selecting bank account 1590"
+    },
+    {
+      "Command": "run",
+      "Target": "Iteration/generating_report",
+      "Value": "",
+      "Description": "generating_report"
+    },
+    {
+      "Command": "run",
+      "Target": "Iteration/updating_main_page",
+      "Value": "",
+      "Description": "updating_main_page"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB}",
+      "Value": "",
+      "Description": "Selecting bank account 4692"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_ENTER}",
+      "Value": "",
+      "Description": "Selecting bank account 4692"
+    },
+    {
+      "Command": "run",
+      "Target": "Iteration/generating_report",
+      "Value": "",
+      "Description": "generating_report"
+    },
+    {
+      "Command": "run",
+      "Target": "Iteration/updating_main_page",
+      "Value": "",
+      "Description": "updating_main_page"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB}",
+      "Value": "",
+      "Description": "Selecting bank account 4018"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_ENTER}",
+      "Value": "",
+      "Description": "Selecting bank account 4018"
+    },
+    {
+      "Command": "run",
+      "Target": "Iteration/generating_report",
+      "Value": "",
+      "Description": "generating_report"
+    },
+    {
+      "Command": "run",
+      "Target": "Iteration/updating_main_page",
+      "Value": "",
+      "Description": "updating_main_page"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB}",
+      "Value": "",
+      "Description": "Selecting bank account 7932"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_ENTER}",
+      "Value": "",
+      "Description": "Selecting bank account 7932"
+    },
+    {
+      "Command": "run",
+      "Target": "Iteration/generating_report",
+      "Value": "",
+      "Description": "generating_report"
+    },
+    {
+      "Command": "run",
+      "Target": "Iteration/updating_main_page",
+      "Value": "",
+      "Description": "updating_main_page"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB}",
+      "Value": "",
+      "Description": "Selecting bank account 9701"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_ENTER}",
+      "Value": "",
+      "Description": "Selecting bank account 9701"
+    },
+    {
+      "Command": "run",
+      "Target": "Iteration/generating_report",
+      "Value": "",
+      "Description": "generating_report"
+    },
+    {
+      "Command": "run",
+      "Target": "Iteration/updating_main_page",
+      "Value": "",
+      "Description": "updating_main_page"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB}",
+      "Value": "",
+      "Description": "Selecting bank account 5900"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_ENTER}",
+      "Value": "",
+      "Description": "Selecting bank account 5900"
+    },
+    {
+      "Command": "run",
+      "Target": "Iteration/generating_report",
+      "Value": "",
+      "Description": "generating_report"
+    },
+    {
+      "Command": "run",
+      "Target": "Iteration/updating_main_page",
+      "Value": "",
+      "Description": "updating_main_page"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB}",
+      "Value": "",
+      "Description": "Selecting bank account 9920"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_ENTER}",
+      "Value": "",
+      "Description": "Selecting bank account 9920"
+    },
+    {
+      "Command": "run",
+      "Target": "Iteration/generating_report",
+      "Value": "",
+      "Description": "generating_report"
+    },
+    {
+      "Command": "run",
+      "Target": "Iteration/updating_main_page",
+      "Value": "",
+      "Description": "updating_main_page"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB}",
+      "Value": "",
+      "Description": "Selecting bank account 6135"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_ENTER}",
+      "Value": "",
+      "Description": "Selecting bank account 6135"
+    },
+    {
+      "Command": "run",
+      "Target": "Iteration/generating_report",
+      "Value": "",
+      "Description": "generating_report"
+    },
+    {
+      "Command": "run",
+      "Target": "Iteration/updating_main_page",
+      "Value": "",
+      "Description": "updating_main_page"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB}",
+      "Value": "",
+      "Description": "Selecting bank account 7856"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_ENTER}",
+      "Value": "",
+      "Description": "Selecting bank account 7856"
+    },
+    {
+      "Command": "run",
+      "Target": "Iteration/generating_report",
+      "Value": "",
+      "Description": "generating_report"
+    },
+    {
+      "Command": "run",
+      "Target": "Iteration/updating_main_page",
+      "Value": "",
+      "Description": "updating_main_page"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB}",
+      "Value": "",
+      "Description": "Selecting bank account 1910"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_ENTER}",
+      "Value": "",
+      "Description": "Selecting bank account 1910"
+    },
+    {
+      "Command": "run",
+      "Target": "Iteration/generating_report",
+      "Value": "",
+      "Description": "generating_report"
+    },
+    {
+      "Command": "run",
+      "Target": "Iteration/updating_main_page",
+      "Value": "",
+      "Description": "updating_main_page"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB}",
+      "Value": "",
+      "Description": "Selecting bank account 1104"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_ENTER}",
+      "Value": "",
+      "Description": "Selecting bank account 1104"
+    },
+    {
+      "Command": "run",
+      "Target": "Iteration/generating_report",
+      "Value": "",
+      "Description": "generating_report"
+    },
+    {
+      "Command": "run",
+      "Target": "Iteration/updating_main_page",
+      "Value": "",
+      "Description": "updating_main_page"
+    },
+    {
+      "Command": "click",
+      "Target": "id=seeAllAccountsAG1Table",
+      "Value": "",
+      "Targets": [
+        "id=seeAllAccountsAG1Table",
+        "xpath=//*[@id=\"seeAllAccountsAG1Table\"]",
+        "xpath=//mds-link[@id='seeAllAccountsAG1Table']",
+        "xpath=//mds-link",
+        "css=#seeAllAccountsAG1Table"
+      ],
+      "Description": "Clicking \"See all accounts\""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"allAccountsOverview\"]/div/div/div[2]",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"allAccountsOverview\"]/div/div/div[2]",
+        "xpath=//div[6]/div/div/div/div[2]",
+        "css=#allAccountsOverview > div.filter-container-block > div > div.filter-container.mds-row.mds-d-flex.mds-jc-space-between.mds-fw-wrap"
+      ],
+      "Description": "Clicking to enable tabs"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB}",
+      "Value": "",
+      "Description": "Selecting bank account 3702"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_ENTER}",
+      "Value": "",
+      "Description": "Selecting bank account 3702"
+    },
+    {
+      "Command": "run",
+      "Target": "Iteration/generating_report",
+      "Value": "",
+      "Description": "generating_report"
+    },
+    {
+      "Command": "run",
+      "Target": "Iteration/updating_main_page",
+      "Value": "",
+      "Description": "updating_main_page"
+    },
+    {
+      "Command": "click",
+      "Target": "id=seeAllAccountsAG1Table",
+      "Value": "",
+      "Targets": [
+        "id=seeAllAccountsAG1Table",
+        "xpath=//*[@id=\"seeAllAccountsAG1Table\"]",
+        "xpath=//mds-link[@id='seeAllAccountsAG1Table']",
+        "xpath=//mds-link",
+        "css=#seeAllAccountsAG1Table"
+      ],
+      "Description": "Clicking \"See all accounts\""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"allAccountsOverview\"]/div/div/div[2]",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"allAccountsOverview\"]/div/div/div[2]",
+        "xpath=//div[6]/div/div/div/div[2]",
+        "css=#allAccountsOverview > div.filter-container-block > div > div.filter-container.mds-row.mds-d-flex.mds-jc-space-between.mds-fw-wrap"
+      ],
+      "Description": "Clicking to enable tabs"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB}",
+      "Value": "",
+      "Description": "Selecting bank account 1263"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_ENTER}",
+      "Value": "",
+      "Description": "Selecting bank account 1263"
+    },
+    {
+      "Command": "run",
+      "Target": "Iteration/generating_report",
+      "Value": "",
+      "Description": "generating_report"
+    },
+    {
+      "Command": "run",
+      "Target": "Iteration/updating_main_page",
+      "Value": "",
+      "Description": "updating_main_page"
+    },
+    {
+      "Command": "click",
+      "Target": "id=seeAllAccountsAG1Table",
+      "Value": "",
+      "Targets": [
+        "id=seeAllAccountsAG1Table",
+        "xpath=//*[@id=\"seeAllAccountsAG1Table\"]",
+        "xpath=//mds-link[@id='seeAllAccountsAG1Table']",
+        "xpath=//mds-link",
+        "css=#seeAllAccountsAG1Table"
+      ],
+      "Description": "Clicking \"See all accounts\""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"allAccountsOverview\"]/div/div/div[2]",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"allAccountsOverview\"]/div/div/div[2]",
+        "xpath=//div[6]/div/div/div/div[2]",
+        "css=#allAccountsOverview > div.filter-container-block > div > div.filter-container.mds-row.mds-d-flex.mds-jc-space-between.mds-fw-wrap"
+      ],
+      "Description": "Clicking to enable tabs"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB}",
+      "Value": "",
+      "Description": "Selecting bank account 9306"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_ENTER}",
+      "Value": "",
+      "Description": "Selecting bank account 9306"
+    },
+    {
+      "Command": "run",
+      "Target": "Iteration/generating_report",
+      "Value": "",
+      "Description": "generating_report"
+    },
+    {
+      "Command": "run",
+      "Target": "Iteration/updating_main_page",
+      "Value": "",
+      "Description": "updating_main_page"
+    },
+    {
+      "Command": "click",
+      "Target": "id=seeAllAccountsAG1Table",
+      "Value": "",
+      "Targets": [
+        "id=seeAllAccountsAG1Table",
+        "xpath=//*[@id=\"seeAllAccountsAG1Table\"]",
+        "xpath=//mds-link[@id='seeAllAccountsAG1Table']",
+        "xpath=//mds-link",
+        "css=#seeAllAccountsAG1Table"
+      ],
+      "Description": "Clicking \"See all accounts\""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"allAccountsOverview\"]/div/div/div[2]",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"allAccountsOverview\"]/div/div/div[2]",
+        "xpath=//div[6]/div/div/div/div[2]",
+        "css=#allAccountsOverview > div.filter-container-block > div > div.filter-container.mds-row.mds-d-flex.mds-jc-space-between.mds-fw-wrap"
+      ],
+      "Description": "Clicking to enable tabs"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB}",
+      "Value": "",
+      "Description": "Selecting bank account 1012"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_ENTER}",
+      "Value": "",
+      "Description": "Selecting bank account 1012"
+    },
+    {
+      "Command": "run",
+      "Target": "Iteration/generating_report",
+      "Value": "",
+      "Description": "generating_report"
+    },
+    {
+      "Command": "run",
+      "Target": "Iteration/updating_main_page",
+      "Value": "",
+      "Description": "updating_main_page"
+    },
+    {
+      "Command": "click",
+      "Target": "id=seeAllAccountsAG1Table",
+      "Value": "",
+      "Targets": [
+        "id=seeAllAccountsAG1Table",
+        "xpath=//*[@id=\"seeAllAccountsAG1Table\"]",
+        "xpath=//mds-link[@id='seeAllAccountsAG1Table']",
+        "xpath=//mds-link",
+        "css=#seeAllAccountsAG1Table"
+      ],
+      "Description": "Clicking \"See all accounts\""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"allAccountsOverview\"]/div/div/div[2]",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"allAccountsOverview\"]/div/div/div[2]",
+        "xpath=//div[6]/div/div/div/div[2]",
+        "css=#allAccountsOverview > div.filter-container-block > div > div.filter-container.mds-row.mds-d-flex.mds-jc-space-between.mds-fw-wrap"
+      ],
+      "Description": "Clicking to enable tabs"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB}",
+      "Value": "",
+      "Description": "Selecting bank account 6500"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_ENTER}",
+      "Value": "",
+      "Description": "Selecting bank account 6500"
+    },
+    {
+      "Command": "run",
+      "Target": "Iteration/generating_report",
+      "Value": "",
+      "Description": "generating_report"
+    },
+    {
+      "Command": "run",
+      "Target": "Iteration/updating_main_page",
+      "Value": "",
+      "Description": "updating_main_page"
+    },
+    {
+      "Command": "click",
+      "Target": "id=seeAllAccountsAG1Table",
+      "Value": "",
+      "Targets": [
+        "id=seeAllAccountsAG1Table",
+        "xpath=//*[@id=\"seeAllAccountsAG1Table\"]",
+        "xpath=//mds-link[@id='seeAllAccountsAG1Table']",
+        "xpath=//mds-link",
+        "css=#seeAllAccountsAG1Table"
+      ],
+      "Description": "Clicking \"See all accounts\""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"allAccountsOverview\"]/div/div/div[2]",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"allAccountsOverview\"]/div/div/div[2]",
+        "xpath=//div[6]/div/div/div/div[2]",
+        "css=#allAccountsOverview > div.filter-container-block > div > div.filter-container.mds-row.mds-d-flex.mds-jc-space-between.mds-fw-wrap"
+      ],
+      "Description": "Clicking to enable tabs"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB}",
+      "Value": "",
+      "Description": "Selecting bank account 662"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_ENTER}",
+      "Value": "",
+      "Description": "Selecting bank account 662"
+    },
+    {
+      "Command": "run",
+      "Target": "Iteration/generating_report",
+      "Value": "",
+      "Description": "generating_report"
+    },
+    {
+      "Command": "run",
+      "Target": "Iteration/updating_main_page",
+      "Value": "",
+      "Description": "updating_main_page"
+    },
+    {
+      "Command": "click",
+      "Target": "id=seeAllAccountsAG1Table",
+      "Value": "",
+      "Targets": [
+        "id=seeAllAccountsAG1Table",
+        "xpath=//*[@id=\"seeAllAccountsAG1Table\"]",
+        "xpath=//mds-link[@id='seeAllAccountsAG1Table']",
+        "xpath=//mds-link",
+        "css=#seeAllAccountsAG1Table"
+      ],
+      "Description": "Clicking \"See all accounts\""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"allAccountsOverview\"]/div/div/div[2]",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"allAccountsOverview\"]/div/div/div[2]",
+        "xpath=//div[6]/div/div/div/div[2]",
+        "css=#allAccountsOverview > div.filter-container-block > div > div.filter-container.mds-row.mds-d-flex.mds-jc-space-between.mds-fw-wrap"
+      ],
+      "Description": "Clicking to enable tabs"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB}",
+      "Value": "",
+      "Description": "Selecting bank account 9972"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_ENTER}",
+      "Value": "",
+      "Description": "Selecting bank account 9972"
+    },
+    {
+      "Command": "run",
+      "Target": "Iteration/generating_report",
+      "Value": "",
+      "Description": "generating_report"
+    },
+    {
+      "Command": "run",
+      "Target": "Iteration/updating_main_page",
+      "Value": "",
+      "Description": "updating_main_page"
+    },
+    {
+      "Command": "click",
+      "Target": "id=seeAllAccountsAG1Table",
+      "Value": "",
+      "Targets": [
+        "id=seeAllAccountsAG1Table",
+        "xpath=//*[@id=\"seeAllAccountsAG1Table\"]",
+        "xpath=//mds-link[@id='seeAllAccountsAG1Table']",
+        "xpath=//mds-link",
+        "css=#seeAllAccountsAG1Table"
+      ],
+      "Description": "Clicking \"See all accounts\""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"allAccountsOverview\"]/div/div/div[2]",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"allAccountsOverview\"]/div/div/div[2]",
+        "xpath=//div[6]/div/div/div/div[2]",
+        "css=#allAccountsOverview > div.filter-container-block > div > div.filter-container.mds-row.mds-d-flex.mds-jc-space-between.mds-fw-wrap"
+      ],
+      "Description": "Clicking to enable tabs"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB}",
+      "Value": "",
+      "Description": "Selecting bank account 9552"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_ENTER}",
+      "Value": "",
+      "Description": "Selecting bank account 9552"
+    },
+    {
+      "Command": "run",
+      "Target": "Iteration/generating_report",
+      "Value": "",
+      "Description": "generating_report"
+    },
+    {
+      "Command": "run",
+      "Target": "Iteration/updating_main_page",
+      "Value": "",
+      "Description": "updating_main_page"
+    },
+    {
+      "Command": "click",
+      "Target": "id=seeAllAccountsAG1Table",
+      "Value": "",
+      "Targets": [
+        "id=seeAllAccountsAG1Table",
+        "xpath=//*[@id=\"seeAllAccountsAG1Table\"]",
+        "xpath=//mds-link[@id='seeAllAccountsAG1Table']",
+        "xpath=//mds-link",
+        "css=#seeAllAccountsAG1Table"
+      ],
+      "Description": "Clicking \"See all accounts\""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"allAccountsOverview\"]/div/div/div[2]",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"allAccountsOverview\"]/div/div/div[2]",
+        "xpath=//div[6]/div/div/div/div[2]",
+        "css=#allAccountsOverview > div.filter-container-block > div > div.filter-container.mds-row.mds-d-flex.mds-jc-space-between.mds-fw-wrap"
+      ],
+      "Description": "Clicking to enable tabs"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB}",
+      "Value": "",
+      "Description": "Selecting bank account 3205"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_ENTER}",
+      "Value": "",
+      "Description": "Selecting bank account 3205"
+    },
+    {
+      "Command": "run",
+      "Target": "Iteration/generating_report",
+      "Value": "",
+      "Description": "generating_report"
+    },
+    {
+      "Command": "run",
+      "Target": "Iteration/updating_main_page",
+      "Value": "",
+      "Description": "updating_main_page"
+    },
+    {
+      "Command": "click",
+      "Target": "id=seeAllAccountsAG1Table",
+      "Value": "",
+      "Targets": [
+        "id=seeAllAccountsAG1Table",
+        "xpath=//*[@id=\"seeAllAccountsAG1Table\"]",
+        "xpath=//mds-link[@id='seeAllAccountsAG1Table']",
+        "xpath=//mds-link",
+        "css=#seeAllAccountsAG1Table"
+      ],
+      "Description": "Clicking \"See all accounts\""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"allAccountsOverview\"]/div/div/div[2]",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"allAccountsOverview\"]/div/div/div[2]",
+        "xpath=//div[6]/div/div/div/div[2]",
+        "css=#allAccountsOverview > div.filter-container-block > div > div.filter-container.mds-row.mds-d-flex.mds-jc-space-between.mds-fw-wrap"
+      ],
+      "Description": "Clicking to enable tabs"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB}",
+      "Value": "",
+      "Description": "Selecting bank account 1117"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_ENTER}",
+      "Value": "",
+      "Description": "Selecting bank account 1117"
+    },
+    {
+      "Command": "run",
+      "Target": "Iteration/generating_report",
+      "Value": "",
+      "Description": "generating_report"
+    },
+    {
+      "Command": "run",
+      "Target": "Iteration/updating_main_page",
+      "Value": "",
+      "Description": "updating_main_page"
+    },
+    {
+      "Command": "click",
+      "Target": "id=seeAllAccountsAG1Table",
+      "Value": "",
+      "Targets": [
+        "id=seeAllAccountsAG1Table",
+        "xpath=//*[@id=\"seeAllAccountsAG1Table\"]",
+        "xpath=//mds-link[@id='seeAllAccountsAG1Table']",
+        "xpath=//mds-link",
+        "css=#seeAllAccountsAG1Table"
+      ],
+      "Description": "Clicking \"See all accounts\""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"allAccountsOverview\"]/div/div/div[2]",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"allAccountsOverview\"]/div/div/div[2]",
+        "xpath=//div[6]/div/div/div/div[2]",
+        "css=#allAccountsOverview > div.filter-container-block > div > div.filter-container.mds-row.mds-d-flex.mds-jc-space-between.mds-fw-wrap"
+      ],
+      "Description": "Clicking to enable tabs"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB}",
+      "Value": "",
+      "Description": "Selecting bank account 689"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_ENTER}",
+      "Value": "",
+      "Description": "Selecting bank account 689"
+    },
+    {
+      "Command": "run",
+      "Target": "Iteration/generating_report",
+      "Value": "",
+      "Description": "generating_report"
+    },
+    {
+      "Command": "run",
+      "Target": "Iteration/updating_main_page",
+      "Value": "",
+      "Description": "updating_main_page"
+    },
+    {
+      "Command": "click",
+      "Target": "id=seeAllAccountsAG1Table",
+      "Value": "",
+      "Targets": [
+        "id=seeAllAccountsAG1Table",
+        "xpath=//*[@id=\"seeAllAccountsAG1Table\"]",
+        "xpath=//mds-link[@id='seeAllAccountsAG1Table']",
+        "xpath=//mds-link",
+        "css=#seeAllAccountsAG1Table"
+      ],
+      "Description": "Clicking \"See all accounts\""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"allAccountsOverview\"]/div/div/div[2]",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"allAccountsOverview\"]/div/div/div[2]",
+        "xpath=//div[6]/div/div/div/div[2]",
+        "css=#allAccountsOverview > div.filter-container-block > div > div.filter-container.mds-row.mds-d-flex.mds-jc-space-between.mds-fw-wrap"
+      ],
+      "Description": "Clicking to enable tabs"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB}",
+      "Value": "",
+      "Description": "Selecting bank account 3832"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_ENTER}",
+      "Value": "",
+      "Description": "Selecting bank account 3832"
+    },
+    {
+      "Command": "run",
+      "Target": "Iteration/generating_report",
+      "Value": "",
+      "Description": "generating_report"
+    },
+    {
+      "Command": "run",
+      "Target": "Iteration/updating_main_page",
+      "Value": "",
+      "Description": "updating_main_page"
+    },
+    {
+      "Command": "click",
+      "Target": "id=seeAllAccountsAG1Table",
+      "Value": "",
+      "Targets": [
+        "id=seeAllAccountsAG1Table",
+        "xpath=//*[@id=\"seeAllAccountsAG1Table\"]",
+        "xpath=//mds-link[@id='seeAllAccountsAG1Table']",
+        "xpath=//mds-link",
+        "css=#seeAllAccountsAG1Table"
+      ],
+      "Description": "Clicking \"See all accounts\""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"allAccountsOverview\"]/div/div/div[2]",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"allAccountsOverview\"]/div/div/div[2]",
+        "xpath=//div[6]/div/div/div/div[2]",
+        "css=#allAccountsOverview > div.filter-container-block > div > div.filter-container.mds-row.mds-d-flex.mds-jc-space-between.mds-fw-wrap"
+      ],
+      "Description": "Clicking to enable tabs"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB}",
+      "Value": "",
+      "Description": "Selecting bank account 7321"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_ENTER}",
+      "Value": "",
+      "Description": "Selecting bank account 7321"
+    },
+    {
+      "Command": "run",
+      "Target": "Iteration/generating_report",
+      "Value": "",
+      "Description": "generating_report"
+    },
+    {
+      "Command": "run",
+      "Target": "Iteration/updating_main_page",
+      "Value": "",
+      "Description": "updating_main_page"
+    },
+    {
+      "Command": "click",
+      "Target": "id=seeAllAccountsAG1Table",
+      "Value": "",
+      "Targets": [
+        "id=seeAllAccountsAG1Table",
+        "xpath=//*[@id=\"seeAllAccountsAG1Table\"]",
+        "xpath=//mds-link[@id='seeAllAccountsAG1Table']",
+        "xpath=//mds-link",
+        "css=#seeAllAccountsAG1Table"
+      ],
+      "Description": "Clicking \"See all accounts\""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"allAccountsOverview\"]/div/div/div[2]",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"allAccountsOverview\"]/div/div/div[2]",
+        "xpath=//div[6]/div/div/div/div[2]",
+        "css=#allAccountsOverview > div.filter-container-block > div > div.filter-container.mds-row.mds-d-flex.mds-jc-space-between.mds-fw-wrap"
+      ],
+      "Description": "Clicking to enable tabs"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB}${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB} ${KEY_TAB}",
+      "Value": "",
+      "Description": "Selecting bank account 2289"
+    },
+    {
+      "Command": "XType",
+      "Target": "${KEY_ENTER}",
+      "Value": "",
+      "Description": "Selecting bank account 2289"
+    },
+    {
+      "Command": "run",
+      "Target": "Iteration/generating_report",
+      "Value": "",
+      "Description": "generating_report"
+    }
+  ]
+}
